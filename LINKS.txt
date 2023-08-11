@@ -17,6 +17,12 @@ https://drive.google.com/drive/folders/1c2HFHbhpeNpm1qz0hvJn77DGE4OoeaN7
 Link aula virtual:
 https://aulasvirtuales.bue.edu.ar/
 
+Link pagina (proyecto integrador)
+https://challenge-integrador.vercel.app/
+
+Link Figma (proyecto integrador)
+https://www.figma.com/file/IjTSeE2BpRd5Gk9VakNIhC/Challenge-Integrador---Funkoshop?type=design&node-id=19905-437&mode=design&t=yAhWrrMIesXM4GEp-0
+
 Tutor
 Gonzalo Monicat <gonzalo.monicat@bue.edu.ar>
 
