@@ -1,0 +1,31 @@
+
+
+
+/* h1.green{
+    font-size: 90px;
+    color: blue;
+}
+ */
+ :root{
+    --botones:#FF3333;
+ }
+
+
+
+ @font-face{
+ font-family: 'Raleway', sans-serif;
+ src:url("../fonts/Raleway-Italic-VariableFont_wght.ttf")
+}
+
+ p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+ }
+
+.green{
+    color:rgb(10, 21, 183)
+}
+button{
+    background-color:#ffffff;
+    color: #FF3333;
+}
