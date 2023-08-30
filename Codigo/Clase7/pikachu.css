@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 350px;
+    margin: 10rem auto;
+    background-color:#FF8B01;
+    color: white;
+    padding:3rem;
+    border-radius: 30px;
+    border: 10px dotted black;
+}
+
+img{
+    width: 100%;
+}
+
+.card_image{
+/*     display: block; */
+    padding: 1.5rem;
+}
+
+.card .card_data p{
+    margin: .8rem 0;
+}
