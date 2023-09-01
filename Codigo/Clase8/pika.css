@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: red
+}
+
+
+.card{
+    width: 350px;
+    margin: 10rem auto;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    padding: 3rem;
+position: relative;
+/* background-image: url(./img/pika2.png); */
+}
+
+.card:hover{
+    animation: agrandar 3s  ease-in-out;
+/*     background-image: url(./img/pika.png); */
+
+}
+
+@keyframes agrandar{
+    0%{
+        width: 550px;
+        height:750px ;
+        background-color:yellowgreen
+    }
+    50%{
+        width: 750px;
+        height:950px ;
+        background-color:yellow
+    }
+}
+
+
+
+/* @keyframes pendulo{
+    0%{
+transform-orign:left top;
+transform: rotate(170deg);
+    }
+    25%{
+        transform: rotate(50deg);
+    }
+    75%{
+        transform: rotate(170deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+} */
+
+
+
+
+/* .card:hover{
+    transform:rotate(170deg)
+
+}  */
+.tag{
+    background-color: orangered;
+    color: aliceblue;
+    border:2px solid black;
+    font-size: 1.2em;
+    width: 120px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    position: absolute;
+    top:-35px;
+    left:34%;
+}
+
+img{
+    width:  100%
+}
+
+.card-image{
+    display: block;
+    padding: 1.5rem;
+}
+
+.card-data{
+    padding: 1.5rem;
+}
+
+.card .card-data p{
+    margin: .8rem 0;
+}

@@ -1,0 +1,10 @@
+nav{
+    border: 2px solid black;
+    background-color: aquamarine;
+    top:0;
+    position: sticky;
+}
+
+li{
+display: inline-block;
+}

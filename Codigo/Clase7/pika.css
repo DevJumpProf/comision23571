@@ -7,22 +7,26 @@
 .card{
     width: 350px;
     margin: 10rem auto;
-    background-color:#FF8B01;
+    background-color: orangered;
     color: white;
-    padding:3rem;
-    border-radius: 30px;
-    border: 10px dotted black;
+    border-radius: 10px;
+    padding: 3rem;
+
 }
 
 img{
-    width: 100%;
+    width:  100%
 }
 
-.card_image{
-/*     display: block; */
+.card-image{
+    display: block;
     padding: 1.5rem;
 }
 
-.card .card_data p{
+.card-data{
+    padding: 1.5rem;
+}
+
+.card .card-data p{
     margin: .8rem 0;
 }
