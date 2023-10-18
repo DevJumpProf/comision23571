@@ -1,0 +1,23 @@
+[
+{
+        "id":1,
+        "name" : "Bruce",
+        "LastName": "Wayne",
+        "Alias": "Batman"
+
+},
+{
+    "id":2,
+    "name" : "Daiana",
+    "LastName": "Prince",
+    "Alias": "Wonder Woman"
+
+},
+{
+    "id":3,
+    "name" : "Clark",
+    "LastName": "Kent",
+    "Alias": "Superman"
+
+}
+]
