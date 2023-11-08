@@ -6,6 +6,8 @@ const db = require ("./database/db.js")
 const app = express()
 const port = 3030
 
+
+
 app.use(cors())
 app.use(express.json())
 
