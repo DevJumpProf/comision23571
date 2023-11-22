@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("partials/head")%>
+
+<body>
+    
+    <h1><%=title%></h1>
+
+    <%concesionarias.forEach(sucursal=>{%>
+    <h3><a href="/sucursal/<%=sucursal.sucursal%>"><%=sucursal.sucursal%></a></h3>
+    <h4>Direccion: <%=sucursal.direccion%></h4>
+    <h4>Telefono: <%=sucursal.telefono%></h4>
+        <% })%>
+
+</body>
+</html>
