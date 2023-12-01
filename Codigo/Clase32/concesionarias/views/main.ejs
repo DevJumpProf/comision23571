@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("partials/head")%>
+
+<body>
+
+    <h1>Hola estas en la concesionaria : <%=nombre%></h1>
+
+    <p>Elegi algunas de nuestras <a href="/sucursales">Sucursales</a> y podras ver toda su info</p>
+    <ul>
+    <%concesionaria.forEach(sucursal=>{%>
+
+    <li><a href="/sucursales/<%=sucursal.sucursal%>"><%=sucursal.sucursal%></a></li>
+
+        <% }) %>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("partials/head")%>
+
+<body>
+
+    <h3><%=marca%></h3>
+
+    <%autos.forEach(auto=>{%>
+
+        <p><%=auto.modelo%></p>
+        <p><%=auto.anio%></p>
+        <p><%=auto.color%></p>
+
+        <div>
+            <img src="<%=auto.img%>" alt="<%=auto.modelo%>" style="width: 25%;">
+        </div>
+
+        <% }) %>
+
+
+
+</body>
+</html>
